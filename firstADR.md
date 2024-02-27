@@ -28,11 +28,11 @@ Limited flexibility in certain customization scenarios where Django's convention
 
 # Sample Django view demonstrating simplicity and readability
 
-<!-- 
+
 from django.shortcuts import render
 from .models import Product
 
 def product_list(request):
     products = Product.objects.all()
     return render(request, 'products/product_list.html', {'products': products}) 
--->
+

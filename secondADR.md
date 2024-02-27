@@ -25,7 +25,7 @@ Higher resource requirements compared to lighter database engines may necessitat
 
 # Sample Code:
 
-<!-- 
+
 from django.db import models
 
 class Customer(models.Model):
@@ -39,4 +39,3 @@ class Customer(models.Model):
             models.Index(fields=['created_at']),
         ] 
         
--->
